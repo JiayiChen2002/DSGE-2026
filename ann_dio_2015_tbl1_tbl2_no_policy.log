@@ -1,0 +1,110 @@
+Starting Dynare (version 6.5).
+Calling Dynare with arguments: noclearall
+Starting preprocessing of the model file ... 
+Found 28 equation(s). 
+Evaluating expressions... 
+Computing static model derivatives (order 1). 
+Normalizing the static model... 
+Finding the optimal block decomposition of the static model... 
+12 block(s) found: 
+  10 recursive block(s) and 2 simultaneous block(s). 
+  the largest simultaneous block has 13 equation(s) 
+                                 and 13 feedback variable(s). 
+Computing dynamic model derivatives (order 2). 
+Normalizing the dynamic model... 
+Normalization failed with cutoff, trying symbolic normalization... 
+Finding the optimal block decomposition of the dynamic model... 
+8 block(s) found: 
+  7 recursive block(s) and 1 simultaneous block(s). 
+  the largest simultaneous block has 18 equation(s) 
+                                 and 16 feedback variable(s). 
+Preprocessing completed. 
+Preprocessing time: 0h00m01s.
+[警告: Some of the parameters have no value (A, ZSTAR, TARGET_INTENSITY, CARBON_TAX) when
+using steady. If these parameters are not initialized in a steadystate file or a
+steady_state_model-block, Dynare may not be able to solve the model. Note that simul,
+perfect_foresight_setup, and perfect_foresight_solver do not automatically call the
+steady state file.] 
+
+STEADY-STATE RESULTS:
+
+a       		 1.24801
+c       		 0.544622
+ca_y    		 0
+dp      		 1
+g       		 0.0794823
+iv      		 0.153927
+k       		 6.15708
+m       		 800
+mc      		 0.833333
+pstar   		 1
+pz      		 0
+rnom    		 1.0101
+rk      		 0.035101
+t       		 0.0794823
+u       		 0
+w       		 2.1612
+x       		 4.62321
+y       		 0.778031
+z       		 0.350114
+eta     		 1
+Gamma_m 		 0.00543132
+Theta   		 5.54785
+pie     		 1
+Psi     		 0.833333
+Omega   		 0
+q       		 1
+welf    		 -100.449
+MU_L    		 19.8413
+
+
+CHECK CALIBRATION
+                      Table 1     
+                 _________________
+
+    ALPHA        0.333333333333333
+    BETA                      0.99
+    DELTA_K                  0.025
+    GAMMA_I                     15
+    PHI                          1
+    THETA                        6
+    XI                        0.75
+    A             1.24800770118708
+    MU_L           19.841269841491
+    IOTA_PI                      3
+    1-DELTA_M               0.9979
+    VARPHI                    0.45
+    PHI_1                     0.18
+    PHI_2                      2.8
+    GAMMA_0               0.001395
+    GAMMA_1            -6.6722e-06
+    GAMMA_2             1.4647e-08
+    SIGMA_A                 0.0045
+    SIGMA_G                 0.0053
+    SIGMA_ETA               0.0024
+    RHO_A                     0.95
+    RHO_G                     0.97
+    RHO_ETA                   0.15
+
+                    Table 2     
+               _________________
+
+    y          0.778031183999997
+    c          0.544621828793928
+    iv         0.153927032805754
+    l                        0.2
+    mc         0.833333333333333
+    z          0.350114032799999
+    m                        800
+    u                          0
+    pz                         0
+    ca_y                       0
+    Gamma_m           0.00543132
+    welf       -100.448901412451
+
+    steady-state public consumption to GDP ratio: 0.102158
+    steady-state private consumption to GDP ratio: 0.700000
+
+
+Total computing time : 0h00m03s
+Note: warning(s) encountered in MATLAB/Octave code
